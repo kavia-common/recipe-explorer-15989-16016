@@ -58,6 +58,54 @@
   transition: color 0.3s ease;
 }
 
+/* --- Recipe Explorer minimal styles --- */
+.home {
+  padding: 20px;
+  text-align: left;
+}
+
+.home__title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.home__subtitle {
+  margin-top: 4px;
+  color: gray;
+  font-size: 14px;
+}
+
+.home__search {
+  margin-top: 12px;
+}
+
+.home__search input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.recipes {
+  margin-top: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.recipe-card {
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
+.recipe-card__thumb {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  background: #d9d9d9;
+  margin-bottom: 8px;
+}
+
 .theme-toggle {
   position: absolute;
   top: 20px;
